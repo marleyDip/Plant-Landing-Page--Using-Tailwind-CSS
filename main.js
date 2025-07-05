@@ -122,7 +122,7 @@ const sr = ScrollReveal({
   distance: "60px",
   duration: 2500,
   delay: 300,
-  //reset: true,
+  reset: true,
 });
 
 // home, about, popular, review, footer
