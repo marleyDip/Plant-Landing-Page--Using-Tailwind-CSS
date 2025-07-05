@@ -3,3 +3,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply bg-green-950 text-white font-jost tracking-wider;
+}
+
+.nav-link {
+    @apply text-lg font-bold duration-300;
+}
+
+.nav-link:hover {
+    @apply text-yellow-500
+}
