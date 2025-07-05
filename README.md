@@ -1,6 +1,6 @@
 ## 🚀 *Project Demo Link*
 
-### 🔗 [Plants Landing Page Using Tailwind CSS v3 & JS](https://taiwind-css-plant.netlify.app/)
+### 🔗 [Plants Landing Page Using Tailwind CSS v3 & JS DOM](https://taiwind-css-plant.netlify.app/)
 
 ## 🌟 *Project Description*
 
