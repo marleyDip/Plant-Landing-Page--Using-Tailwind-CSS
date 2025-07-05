@@ -18,6 +18,12 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css"
     />
 
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <!-- main css -->
     <link rel="stylesheet" href="./output.css" />
   </head>
@@ -285,16 +291,22 @@
         </div>
         <!-- top right image -->
 
+        <!-- title start -->
         <div
           class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
         >
           <h2 class="title h2">About Us</h2>
 
-          <p class="max-w-2xl h3">Follow instruction for more</p>
+          <p class="max-w-2xl h3">
+            Rooted in quality and care, we help you grow a greener, happier
+            space.
+          </p>
         </div>
+        <!-- title end -->
 
+        <!-- item start -->
         <div class="container space-y-10 xl:space-y-0">
-          <!-- item 1 start -->
+          <!-- item 1 -->
           <div class="flex flex-col lg:flex-row text-left gap-5">
             <!-- image -->
             <div class="w-full lg:w-1/2">
@@ -323,9 +335,9 @@
             </div>
             <!-- contact -->
           </div>
-          <!-- item 1 end -->
+          <!-- item 1 -->
 
-          <!-- item 2 start -->
+          <!-- item 2 -->
           <div class="flex flex-col lg:flex-row-reverse text-left gap-5">
             <!-- image -->
             <div class="w-full lg:w-1/2">
@@ -355,23 +367,29 @@
             </div>
             <!-- contact -->
           </div>
-          <!-- item 2 end -->
+          <!-- item 2 -->
         </div>
+        <!-- item end -->
       </section>
       <!-- About Us end -->
 
       <!-- popular start -->
       <section id="popular" class="bg-green-900">
+        <!-- title start -->
         <div class="flex flex-col items-center gap-3 text-center mb-40">
           <h2 class="title h2">Your Choice Plant</h2>
 
-          <p class="max-w-2xl h3">Follow instruction for more</p>
+          <p class="max-w-2xl h3">
+            Find the perfect plant that matches your vibe and lifestyle.
+          </p>
         </div>
+        <!-- title end -->
 
+        <!-- card start -->
         <div
           class="container w-full grid grid-cols-1 gap-x-8 gap-y-36 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
         >
-          <!-- card 1 start -->
+          <!-- card 1 -->
           <div
             class="popular__card bg-green-950 p-10 pt-24 rounded-md relative"
           >
@@ -405,9 +423,9 @@
               </button>
             </div>
           </div>
-          <!-- card 1 end -->
+          <!-- card 1 -->
 
-          <!-- card 2 start -->
+          <!-- card 2 -->
           <div
             class="popular__card bg-green-950 p-10 pt-24 rounded-md relative"
           >
@@ -441,9 +459,9 @@
               </button>
             </div>
           </div>
-          <!-- card 2 end -->
+          <!-- card 2 -->
 
-          <!-- card 3 start -->
+          <!-- card 3 -->
           <div
             class="popular__card bg-green-950 p-10 pt-24 rounded-md relative"
           >
@@ -477,9 +495,9 @@
               </button>
             </div>
           </div>
-          <!-- card 3 end -->
+          <!-- card 3 -->
 
-          <!-- card 4 start -->
+          <!-- card 4 -->
           <div
             class="popular__card bg-green-950 p-10 pt-24 rounded-md relative"
           >
@@ -513,12 +531,220 @@
               </button>
             </div>
           </div>
-          <!-- card 4 end -->
+          <!-- card 4 -->
         </div>
+        <!-- card end -->
       </section>
       <!-- popular end -->
+
+      <!-- review start -->
+      <section id="review" class="relative mb-20 md:mb-28 overflow-hidden">
+        <!-- top left image start -->
+        <div class="absolute -top-8 -left-12 opacity-50">
+          <img
+            src="assets/img/leaf-4.png"
+            alt="Top Left Image"
+            class="w-40 md:w-52 xl:w-64"
+          />
+        </div>
+        <!-- top left image end -->
+
+        <!-- title start -->
+        <div
+          class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
+        >
+          <h2 class="title h2">Customer Review</h2>
+
+          <p class="max-w-2xl h3">
+            Trusted by plant lovers — see what they’re saying!
+          </p>
+        </div>
+        <!-- title end -->
+
+        <!-- review start -->
+        <div class="container">
+          <div class="swiper py-12">
+            <ul class="swiper-wrapper">
+              <!-- review 1 -->
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-green-900 rounded p-6">
+                  <p class="font-Lobster h4">
+                    Absolutely love my new plant! It arrived healthy and
+                    vibrant. Great packaging and fast delivery too.
+                  </p>
+
+                  <div class="flex items-center">
+                    <img
+                      src="assets/img/review-1.jpg"
+                      alt="Review Image"
+                      class="w-12 h-12 rounded-full"
+                    />
+
+                    <div class="ml-2">
+                      <p class="text-yellow-500 uppercase h3">Sophia R.</p>
+
+                      <p class="h4">Interior Designer</p>
+                    </div>
+
+                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                  </div>
+                </div>
+              </li>
+              <!-- review 1 -->
+
+              <!-- review 2 -->
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-green-900 rounded p-6">
+                  <p class="font-Lobster h4">
+                    Affordable prices, beautiful plants, and quick shipping —
+                    I’ll definitely order again soon and often!
+                  </p>
+
+                  <div class="flex items-center">
+                    <img
+                      src="assets/img/review-2.jpg"
+                      alt="Review Image"
+                      class="w-12 h-12 rounded-full"
+                    />
+
+                    <div class="ml-2">
+                      <p class="text-yellow-500 uppercase h3">David K.</p>
+
+                      <p class="h4">Lifestyle Blogger</p>
+                    </div>
+
+                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                  </div>
+                </div>
+              </li>
+              <!-- review 2 -->
+
+              <!-- review 3 -->
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-green-900 rounded p-6">
+                  <p class="font-Lobster h4">
+                    As a first-time plant buyer, I’m impressed. The guide that
+                    came with it made care super easy.
+                  </p>
+
+                  <div class="flex items-center">
+                    <img
+                      src="assets/img/review-3.jpg"
+                      alt="Review Image"
+                      class="w-12 h-12 rounded-full"
+                    />
+
+                    <div class="ml-2">
+                      <p class="text-yellow-500 uppercase h3">Nusrat H.</p>
+
+                      <p class="h4">Plant Enthusiast</p>
+                    </div>
+
+                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                  </div>
+                </div>
+              </li>
+              <!-- review 3 -->
+
+              <!-- review 4 -->
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-green-900 rounded p-6">
+                  <p class="font-Lobster h4">
+                    The quality exceeded my expectations. My living room feels
+                    so much fresher and vibrant now!
+                  </p>
+
+                  <div class="flex items-center">
+                    <img
+                      src="assets/img/review-4.jpg"
+                      alt="Review Image"
+                      class="w-12 h-12 rounded-full"
+                    />
+
+                    <div class="ml-2">
+                      <p class="text-yellow-500 uppercase h3">Liam C.</p>
+
+                      <p class="h4">Home Gardener</p>
+                    </div>
+
+                    <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                  </div>
+                </div>
+              </li>
+              <!-- review 4 -->
+            </ul>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <!-- review end -->
+      </section>
+      <!-- review end -->
+
+      <!-- footer start -->
+      <footer
+        class="bg-yellow-100 text-green-950 pt-20 pb-10 md:pt-28 relative"
+      >
+        <!-- newsletter start -->
+        <div
+          class="container text-white absolute top-0 right-0 left-0 -translate-y-1/2"
+        >
+          <div class="bg-green-900 px-10 pt-5 pb-10 space-y-5 rounded-md">
+            <h3 class="h3">
+              <span class="text-yellow-500">Subscribe</span> to our newsletter
+            </h3>
+
+            <div class="flex flex-col md:flex-row gap-1">
+              <input
+                type="email"
+                placeholder="Your Email Address"
+                class="w-full px-5 py-3 text-green-900 rounded-md outline-none"
+              />
+
+              <button
+                class="flex items-center justify-center gap-1 bg-green-950 px-5 py-3 rounded-md hover:opacity-80 duration-300"
+              >
+                <span>Subscribe</span>
+
+                <i class="ri-send-plane-2-fill"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- newsletter end -->
+
+        <!-- social icon start -->
+        <div>
+          <div>
+            <div>
+              <div>
+                <i
+                  class="ri-facebook-fill text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"
+                ></i>
+
+                <i
+                  class="ri-twitter-x-line text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"
+                ></i>
+
+                <i
+                  class="ri-instagram-line text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"
+                ></i>
+
+                <i
+                  class="ri-linkedin-fill text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- social icon end -->
+      </footer>
+      <!-- footer end -->
     </main>
     <!-- main end -->
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <!-- main js -->
     <script src="main.js"></script>

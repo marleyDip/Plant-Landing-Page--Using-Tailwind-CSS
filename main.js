@@ -18,3 +18,34 @@ navLink.forEach((link) => {
     hamburger.classList.toggle("ri-close-large-line");
   });
 });
+
+// swiper
+const swiper = new Swiper(".swiper", {
+  // optional parameter
+  speed: 400,
+  spaceBetween: 30,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+
+  // if we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  grabCursor: true,
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+    },
+
+    768: {
+      slidesPerView: 2,
+    },
+
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+});
