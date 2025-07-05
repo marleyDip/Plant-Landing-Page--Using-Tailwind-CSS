@@ -678,6 +678,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mb-40{
+  margin-bottom: 10rem;
+}
+
 .flex{
   display: flex;
 }
@@ -724,6 +728,10 @@ video {
 
 .max-w-2xl{
   max-width: 42rem;
+}
+
+.max-w-xl{
+  max-width: 36rem;
 }
 
 .grow{
@@ -1156,6 +1164,10 @@ h1{
 @media (min-width: 540px){
   .md\:mb-20{
     margin-bottom: 5rem;
+  }
+
+  .md\:mb-28{
+    margin-bottom: 7rem;
   }
 
   .md\:w-5{
