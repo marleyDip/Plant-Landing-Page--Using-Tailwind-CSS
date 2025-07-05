@@ -19,6 +19,9 @@ navLink.forEach((link) => {
   });
 });
 
+// year
+document.getElementById("year").textContent = new Date().getFullYear();
+
 // swiper
 const swiper = new Swiper(".swiper", {
   // optional parameter
