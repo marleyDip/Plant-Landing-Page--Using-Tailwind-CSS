@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    @apply overflow-x-hidden scroll-smooth;
+}
+
 body {
     @apply bg-green-950 text-white font-jost tracking-wider;
 }
@@ -12,7 +16,7 @@ section {
     @apply py-20 md:py-28;
 }
 
-h1 {
+.h1 {
     @apply text-3xl md:text-4xl font-bold;
 }
 
