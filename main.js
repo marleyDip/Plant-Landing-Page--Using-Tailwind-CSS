@@ -115,3 +115,46 @@ const swiper = new Swiper(".swiper", {
   },
 });
 /* swiper */
+
+/* Scroll Reveal Animation */
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "60px",
+  duration: 2500,
+  delay: 300,
+  //reset: true,
+});
+
+// home, about, popular, review, footer
+sr.reveal(
+  ".home__data, .about__top, .popular__top, .review__top, .review__swiper, .footer__icon, .footer__content, .copy__right"
+);
+sr.reveal(".home__image", {
+  delay: 500,
+  scale: 0.5,
+});
+
+//  service, popular card
+sr.reveal(".service__card, .popular__card", {
+  interval: 100,
+});
+
+// about
+sr.reveal(".about__leaf", {
+  delay: 1000,
+  origin: "right",
+});
+sr.reveal(".about__item__1-img, .about__item__1-content", {
+  origin: "right",
+});
+sr.reveal(".about__item__2-img, .about__item__2-content", {
+  origin: "left",
+});
+
+// review, footer floral
+sr.reveal(".review__leaf, .footer__floral", {
+  delay: 1000,
+  origin: "left",
+});
+
+/* Scroll Reveal Animation */

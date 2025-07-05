@@ -98,7 +98,7 @@
           <!-- content & image start -->
           <div class="flex flex-col lg:flex-row items-center gap-5">
             <!-- content start -->
-            <div class="w-full space-y-5 lg:w-1/2">
+            <div class="home__data w-full space-y-5 lg:w-1/2">
               <h1>
                 <span class="text-yellow-500">Plants</span> make a <br />
                 positive <span class="text-yellow-500">impact</span> on <br />
@@ -158,7 +158,11 @@
             <!-- image & leaf start -->
             <div class="w-full relative lg:w-1/2">
               <!-- image -->
-              <img src="assets/img/home.png" alt="Home Image" />
+              <img
+                src="assets/img/home.png"
+                alt="Home Image"
+                class="home__image"
+              />
               <!-- image -->
 
               <!-- leaf -->
@@ -195,7 +199,7 @@
         >
           <!-- care 1 start -->
           <div
-            class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+            class="service__card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
           >
             <div class="flex items-center gap-5">
               <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
@@ -215,7 +219,7 @@
 
           <!-- care 2 start -->
           <div
-            class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+            class="service__card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
           >
             <div class="flex items-center gap-5">
               <i
@@ -236,7 +240,7 @@
 
           <!-- care 3 start -->
           <div
-            class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+            class="service__card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
           >
             <div class="flex items-center gap-5">
               <i class="ri-plant-line text-3xl md:text-4xl xl:text-5xl"></i>
@@ -256,7 +260,7 @@
 
           <!-- care 4 start -->
           <div
-            class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
+            class="service__card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5"
           >
             <div class="flex items-center gap-5">
               <i
@@ -282,7 +286,7 @@
       <!-- About Us Start -->
       <section id="about" class="relative overflow-hidden">
         <!-- top right image -->
-        <div class="absolute -top-8 -right-12 opacity-50">
+        <div class="about__leaf absolute -top-8 -right-12 opacity-50">
           <img
             src="assets/img/leaf-3.png"
             alt="About Bg Image"
@@ -293,7 +297,7 @@
 
         <!-- title start -->
         <div
-          class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
+          class="about__top flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
         >
           <h2 class="title h2">About Us</h2>
 
@@ -309,7 +313,7 @@
           <!-- item 1 -->
           <div class="flex flex-col lg:flex-row text-left gap-5">
             <!-- image -->
-            <div class="w-full lg:w-1/2">
+            <div class="about__item__1-img w-full lg:w-1/2">
               <img
                 class="w-full sm:w-2/3 lg:w-full xl:w-2/3"
                 src="assets/img/plant-1.png"
@@ -319,7 +323,7 @@
             <!-- image -->
 
             <!-- contact -->
-            <div class="w-full lg:w-1/2">
+            <div class="about__item__1-content w-full lg:w-1/2">
               <div class="space-y-5">
                 <h3 class="h3">
                   Make your <span class="text-yellow-500">organic </span> <br />
@@ -340,7 +344,7 @@
           <!-- item 2 -->
           <div class="flex flex-col lg:flex-row-reverse text-left gap-5">
             <!-- image -->
-            <div class="w-full lg:w-1/2">
+            <div class="about__item__2-img w-full lg:w-1/2">
               <img
                 class="w-full sm:w-2/3 lg:w-full xl:w-2/3"
                 src="assets/img/plant-2.png"
@@ -350,7 +354,7 @@
             <!-- image -->
 
             <!-- contact -->
-            <div class="w-full lg:w-1/2">
+            <div class="about__item__2-content w-full lg:w-1/2">
               <div class="space-y-5">
                 <h3 class="h3">
                   Come with us
@@ -376,7 +380,9 @@
       <!-- popular start -->
       <section id="popular" class="bg-green-900">
         <!-- title start -->
-        <div class="flex flex-col items-center gap-3 text-center mb-40">
+        <div
+          class="popular__top flex flex-col items-center gap-3 text-center mb-40"
+        >
           <h2 class="title h2">Your Choice Plant</h2>
 
           <p class="max-w-2xl h3">
@@ -540,7 +546,7 @@
       <!-- review start -->
       <section id="review" class="relative mb-20 md:mb-28 overflow-hidden">
         <!-- top left image start -->
-        <div class="absolute -top-8 -left-12 opacity-50">
+        <div class="review__leaf absolute -top-8 -left-12 opacity-50">
           <img
             src="assets/img/leaf-4.png"
             alt="Top Left Image"
@@ -551,7 +557,7 @@
 
         <!-- title start -->
         <div
-          class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
+          class="review__top flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
         >
           <h2 class="title h2">Customer Review</h2>
 
@@ -562,7 +568,7 @@
         <!-- title end -->
 
         <!-- review start -->
-        <div class="container">
+        <div class="review__swiper container">
           <div class="swiper py-12">
             <ul class="swiper-wrapper">
               <!-- review 1 -->
@@ -714,7 +720,7 @@
         <!-- newsletter end -->
 
         <!-- social icon start -->
-        <div class="container mt-16 mb-10">
+        <div class="footer__icon container mt-16 mb-10">
           <div class="border-b border-green-500 relative">
             <div
               class="absolute top-0 left-0 right-0 transform -translate-y-1/2 max-w-36 mx-auto"
@@ -743,7 +749,7 @@
 
         <!-- contact start -->
         <div
-          class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start"
+          class="footer__content container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start"
         >
           <!-- logo -->
           <div>
@@ -808,7 +814,7 @@
         <!-- contact end -->
 
         <!-- copyright start -->
-        <div class="container">
+        <div class="copy__right container">
           <p class="text-center text-[22px] mt-10 opacity-50">
             copyright &copy; <span id="year"></span>
             <a
@@ -822,15 +828,17 @@
         </div>
         <!-- copyright end -->
 
-        <!-- image start -->
-        <div class="absolute bottom-0 left-0 opacity-20 pointer-events-none">
+        <!-- floral image start -->
+        <div
+          class="footer__floral absolute bottom-0 left-0 opacity-20 pointer-events-none"
+        >
           <img
             src="assets/img/floral-1.png"
             alt="Footer Image"
             class="w-full lg:w-1/2"
           />
         </div>
-        <!-- image end -->
+        <!-- floral image end -->
       </footer>
       <!-- footer end -->
 
@@ -848,6 +856,9 @@
 
     <!-- swiper js -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- ScrollReveal Js -->
+    <script src="assets/js/scrollreveal.min.js"></script>
 
     <!-- main js -->
     <script src="main.js"></script>
