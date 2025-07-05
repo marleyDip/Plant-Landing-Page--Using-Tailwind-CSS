@@ -42,6 +42,48 @@ const scrollUp = () => {
 window.addEventListener("scroll", scrollUp);
 /* show scroll up */
 
+/* change background header */
+const scrollHeader = () => {
+  const header = document.getElementById("navbar");
+
+  if (this.scrollY >= 50) {
+    header.classList.add("border-b", "border-yellow-500");
+  } else {
+    header.classList.remove("border-b", "border-yellow-500");
+  }
+};
+
+window.addEventListener("scroll", scrollHeader);
+/* change background header */
+
+/* scroll sections active link */
+const activeLink = () => {
+  const sections = document.querySelectorAll("section");
+
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  let current = "home";
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+
+    if (this.scrollY >= sectionTop - 60) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  navLinks.forEach((item) => {
+    item.classList.remove("active");
+
+    if (item.href.includes(current)) {
+      item.classList.add("active");
+    }
+  });
+};
+
+window.addEventListener("scroll", activeLink);
+/* scroll sections active link */
+
 /* swiper */
 const swiper = new Swiper(".swiper", {
   // optional parameter

@@ -16,6 +16,10 @@ section {
     @apply py-20 md:py-28;
 }
 
+.active {
+    @apply text-yellow-500;
+}
+
 .h1 {
     @apply text-3xl md:text-4xl font-bold;
 }
